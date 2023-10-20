@@ -3,7 +3,9 @@ import React from "react"
 const Home: React.FC = () => {
   return (
     <div>
-      <img src="https://i.redd.it/z2gznvcmv6d61.png" />
+      <div className="flex">
+        <img src="https://i.redd.it/z2gznvcmv6d61.png" />
+      </div>
       <div className="flex w-full">
         <img src="https://thevinylfactory.com/wp-content/uploads/2018/02/home-grown_cover_VF.jpg" />
         <img

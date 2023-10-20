@@ -3,6 +3,7 @@ import { Album } from "../../context/album.context"
 import AlbumCard from "./components/album-card"
 import AlbumTitle from "./components/album-title"
 import AlbumFolder from "./components/album-folder"
+import AlbumDetail from "./components/album-detail"
 
 const Albums: React.FC = () => {
   const [albums, setAlbums] = React.useState<{ albums: Album[] } | null>()
@@ -24,6 +25,7 @@ const Albums: React.FC = () => {
             <AlbumCard key={album.title} album={album}>
               <AlbumFolder />
               <AlbumTitle />
+              <AlbumDetail />
             </AlbumCard>
           ))
         : "Loading..."}

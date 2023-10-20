@@ -3,7 +3,7 @@ import * as React from "react"
 export interface Album {
   folder: string
   title: string
-  artits: string[]
+  artists: string[]
   year: number
 }
 
