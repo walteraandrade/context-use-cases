@@ -9,7 +9,7 @@ const AlbumCard: React.FC<PropsWithChildren<{ album: Album }>> = ({
   return (
     <Card>
       <AlbumContext.Provider value={{ album }}>
-        {children}
+        <div className="flex flex-col items-center">{children}</div>
       </AlbumContext.Provider>
     </Card>
   )
