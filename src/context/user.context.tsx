@@ -18,7 +18,7 @@ const UserContext = React.createContext<UserContext | null>(null)
 export const UserContextProvider: React.FC<React.PropsWithChildren> = ({
   children,
 }) => {
-  const { user, addToStore, logOut } = useUserStore()
+  const { user, addToStore, clearStore } = useUserStore()
   const [isLoggedIn, setIsLoggedIn] = React.useState(!!user)
 
   React.useEffect(() => {
@@ -32,6 +32,11 @@ export const UserContextProvider: React.FC<React.PropsWithChildren> = ({
   function logIn(user: User) {
     addToStore(user)
     setIsLoggedIn(true)
+  }
+
+  function logOut() {
+    clearStore()
+    setIsLoggedIn(false)
   }
   return (
     <UserContext.Provider value={{ user, isLoggedIn, logIn, logOut }}>

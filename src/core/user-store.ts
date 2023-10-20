@@ -5,7 +5,7 @@ const USER_STORE_KEY = "user-store"
 export function useUserStore(): {
   user: User | null
   addToStore: (user: User) => void
-  logOut: () => void
+  clearStore: () => void
 } {
   function getUser(): User | null {
     const storeItem = localStorage.getItem(USER_STORE_KEY)
@@ -18,12 +18,12 @@ export function useUserStore(): {
     localStorage.setItem(USER_STORE_KEY, JSON.stringify(user))
   }
 
-  function logOut() {
+  function clearStore() {
     localStorage.clear()
   }
   return {
     user: getUser(),
     addToStore,
-    logOut,
+    clearStore,
   }
 }

@@ -5,7 +5,7 @@
       "artists": ["Manu Diambo"],
       "year": "1972",
       "label": "Soul Makossa",
-      "image": "http://localhost:8080/african-voodoo.jpg",
+      "folder": "http://localhost:8080/african-voodoo.jpg",
       "review": "Theses files were recorded in 1971 at Pathé-Marconi studio ( Boulogne Billancourt) for professional sound illustration intended for the cinema,television and advertising. The jazzman interisting in and, with al then beginning to convert solely to what soon to be called « Rare Groove » somewhere between Soul , Jazz and Afro Funk with a hint of Latin clave. In 2019 , these tunes have not ages and the sound can be considered as « Huge » by many crate diggers.These recording were not supposed to reach the club or radio audience , it was more free sessions, a moment during they can open their imagination and test their « Afro something» like Manu Dibango like to say.Theses recording sessions included the best of the french soul scene at this time, Yvan Julien (Trumpet) Slim Pezin (Guitar), Jacques Bolognesi( Trombone), Lucien Dobat (Drums)Emile Boza (Percussions, Manfred ( Bass) and the conductor himself at the vibraphone, marimba, saxophone, organ... This album is a wonderful return to the future and should satisfy the need of the Afro Soul aficionados!"
     },
     {
@@ -13,7 +13,7 @@
       "artists": ["Femi Kuti"],
       "year": "2021",
       "label": "Partisan Records/Fonata North",
-      "image": "http://localhost:8080/stop-the-hate.jpg",
+      "folder": "http://localhost:8080/stop-the-hate.jpg",
       "review": "Legendary activist and Afrobeat originator, Fela Kuti, used his music to lament social injustices and political corruption in his native Nigeria. Fela`s legacy spans decades and genres, touching on jazz, pop, funk hip-hop, rock, and beyond. While this impact can be felt in Nigeria and the entire world, it also greatly affected Fela`s son Femi and his son Made, both of whom carry his legacy as torchbearers for change."
     },
     {
@@ -21,7 +21,7 @@
       "artists": ["Fela Kuti"],
       "year": "1977",
       "label": "Coconut",
-      "image": "http://localhost:8080/zombie.jpg",
+      "folder": "http://localhost:8080/zombie.jpg",
       "review": "Nigerian music megastar, Fela Kuti unveiled this electrifying euphony termed Zombie as one of the soundtracks he released in the year 1977. This exceptionally orchestrated melody was much accepted by the music when it was published. On this stunning entry dubbed Zombie from Fela Anikulapo Kuti, the famous music crooner criticized the excesses of the government and it's military who he referred to as Zombies. Trust me, this particular soundtrack is a must listen because the messages are mind-blowing . Fela Kuti is a renowned music activist, all his songs are tailored in a way that everyone can easily relate and reckon with them. Tracks like Zombie, Beast Of No Nation, Why Black Man Dey Suffer, Ikoyi Mentality, Yellow Fever, Confusion and several others reflects directly on issues concerning the people."
     },
     {
@@ -29,7 +29,7 @@
       "artists": ["Bob Marley"],
       "year": "1977",
       "label": "Island",
-      "image": "http://localhost:8080/exodus.jpg",
+      "folder": "http://localhost:8080/exodus.jpg",
       "review": "After the success of 1974's Natty Dread and 1976's Rastaman Vibration, Bob Marley was not only the most successful reggae musician in the world, he was one of the most powerful men in Jamaica. Powerful enough, in fact, that he was shot by gunmen who broke into his home in December 1976, days before he was to play a massive free concert intended to ease tensions days before a contentious election for Jamaican Prime Minister. In the wake of the assassination attempt, Marley and his band left Jamaica and settled in London for two years, where he recorded 1977's Exodus. Thematically, Exodus represented a subtle but significant shift for Marley; while he continued to speak out against political corruption and for freedom and equality for Third World people, his lyrics dealt less with specifics and more with generalities and the need for peace and love (though So Much Things to Say, Guiltiness, and The Heathen demonstrate the bullets had taken only so much sting out of Marley's lyrics). And while songs like Exodus and One Love/People Get Ready were anthemic, they also had less to say than the more pointed material from Marley's earlier albums. However, if Marley had become more wary in his point of view (and not without good cause), his skill as a songwriter was as strong as ever, and Exodus boasted more than a few classics, including the title song, Three Little Birds, Waiting in Vain, and Turn Your Lights Down Low, tunes that defined Marley's gift for sounding laid-back and incisive at once. His gifts as a vocalist were near their peak on these sessions, bringing a broad range of emotional color to his performances, and this lineup of the Wailers -- anchored by bassist Aston Family Man Barrett, drummer Carlton Barrett, and guitarist Julian Junior Murvin -- is superb, effortlessly in the pocket throughout. Exodus was recorded at a time when Bob Marley was learning about the unexpected costs of international stardom, but it hadn't yet sapped his creative strengths, and this is one of the finest albums in his stellar catalog."
     },
     {
@@ -37,7 +37,7 @@
       "artists": ["João Donato"],
       "year": "1973",
       "label": "Odeon",
-      "image": "http://localhost:8080/quem.jpg",
+      "folder": "http://localhost:8080/quem.jpg",
       "review": "Electrified 70s Bossa Nova mixed with some (fusion) jazz. The opener Chorou, Chorou sets the mood in for a confident, yet very laid back 33 minutes. All musical excesses, be it brazilian samba fever or instrumental jazz wizadry/improvisation are totally avoided and end up in a extremely mellow and mature album with a great variety. Spoken word parts, scatting, slight funk influences, orchestral arrangements interact with each other without ever ever being out of place and creating a huge musical cosmos within a short time. I guess the more you listen to it, the more captivating it gets. In a sense this is 100% perfect music. Soul, passion, good singers, instrumental mastery of all players, classy production, even musical humor. It is all present. However, sometimes it is so smooth and perfect, you hardly notice that it is there. It has no weak spots and that why it is hard to grip, which paradoxically is the true weak spot of this album. It is too perfect."
     },
     {
@@ -45,7 +45,7 @@
       "artists": ["Juçara Amaral", "Kiko Dinucci"],
       "year": "2008",
       "label": "Independent",
-      "image": "http://localhost:8080/pade.jpg",
+      "folder": "http://localhost:8080/pade.jpeg",
       "review": "This is, as they say, a gem. Originally released in 2008 and now on vinyl (through Goma Gringa, manufactured by those fine people at Vinil Brasil). A deluxe limited edition (500 copies!), 180gr vinyl with gatefold pasted hard-cover with special paper. Padê was the first album to feature Juçara Marcal and Kiko Dinucci together, before they went on to form Metá Metá with Thiago França. (The São Jorge track from Padê would reappear on the MetaL MetaL album). In the Yoruba language, the Padê is a candomblé ceremony in which food and drinks are offered to Exu. It was believed (and in many terreiros is still believed) that in case the Orixá did not receive the proper homage, it would disrupt the whole ritual. The Padê also serves as a catalyst for superhuman energy, in which the faithful evoke and demand protection from the ancestors (Egunguns) and the ancestral mothers (Iyami Oxorongá), and Exu is responsible for taking such requests to these entities. Exu is still responsible for bringing the Gods of Africa to dance on Brazilian soil. Without Padê there is no ceremony; it only materializes if Exu is always the first to receive the tributes. Kiko Dinucci and Juçara Marcal both carry strong influences from the Afro-Brazilian religions as well as from Brazilian popular culture. In 1998, Juçara participated in setting up and singing in A Barca, a collective of musicians focused on working with the most diverse folk rhythms from around the country. The band released four albums: Turista aprendiz (2000), Baião de Princesas (2002), Trilha, Toada e Trupe (2006) and Turista Aprendiz (2010). She first met with Kiko in 2004 and was impressed by his artistic quality as a composer. “He had a mixture of influences I hadn’t seen before. But very much from São Paulo,” she says. Kiko is regarded as a renovator of samba from São Paulo. But his work embraces a wide range of genres – marchinha, lundu, jongo, batuque, rumba, bolero, embolada, jazz, Afro-Brazilian rhythms together with the spirit of post-punk (in the 90s he played with various indie and hardcore bands). In 2008, they recorded Padê. The album was built on the African ancestry present in the legacies of the Brazilian popular song.  It would be the starting point of a long and prolific artistic partnership that resulted in 2010 in the formation of one of the most iconic bands of the decade, Metá Metá.."
     },
     {
@@ -53,7 +53,7 @@
       "artists": ["Xande de Pilares"],
       "year": "2023",
       "label": "GOLD RECORDS",
-      "image": "http://localhost:8080/xande.jpg",
+      "folder": "http://localhost:8080/xande.webp",
       "review": "A interpretação do Xande traz outras visões vividas pelo Caetano Veloso. A voz potente com a produz mais experimental do samba, faz com que o interessante do ouvinte permaneça do início ao fim. Por mais que dentro do disco tenham momentos desmotivados e desinteressantes, principalmente pela lírica e desencontro sonoro que as vezes soa confuso, o Xande se faz jus ao trabalho e no final das contas entrega um trabalho bom. Ele conseguiu recriar uma obra, sem perder a essência melosa, branca do Caetano e introduziu mais axé, samba e energia necessária para aproveitarmos, sendo que a quantidade de faixas boas é absurda!"
     },
     {
@@ -61,7 +61,7 @@
       "artists": ["Daniela Mercury"],
       "year": "1996",
       "label": "Sony Music",
-      "image": "http://localhost:8080/feijao.jpg",
+      "folder": "http://localhost:8080/feijao.jpg",
       "review": "By the time this appeared, Mercury was already the undoubted Queen of Axé, the music of her native Salvador in Brazil, but this, possibly her finest studio outing, put the title beyond doubt. Starting off by mixing her trademark sound with a mid-tempo reggae beat on Nobre Vagabundo, she kicks into high gear for the out-and-out salsa of Rapunzel, just to show the range of her style. From there it's classy Brazilian popular music (MPB) all the way, with one of the highlights being the slower, ballad-like A Primiera Vista, her biggest Brazilian hit, and the theme music from a popular soap opera. Throughout, Mercury keeps a light, ineffably Brazilian touch on the proceedings, the musicians nimble-fingered -- especially a superb horn section, whose charts really do add to the punch and melody -- without ever going over the top. Even the funky Musa Calabar, with its choppy rhythm guitar workout, never descends to banality. Mercury wraps her voice sensually around every word on the album, teasing and tasting it before torridly letting it out, a far cry from the cool sexiness of Astrud Gilberto. Ultimately, Mercury doesn't put a foot wrong on this disc, singing with total control, even on the rather unusual closer -- a cover of the '60s Japanese hit Sukiyaki. From start to finish, a tour de force."
     },
     {
@@ -69,7 +69,7 @@
       "artists": ["Foli Grio Orquestra"],
       "year": "2019",
       "label": "Independent",
-      "image": "http://localhost:8080/ajo.jpg",
+      "folder": "http://localhost:8080/ajo.jpeg",
       "review": "Produzido por André Magalhães (Metá Metá, A Barca, Ponto BR,...), AJO, primeiro disco autoral da banda, lançado em Abril de 2019, nasce de uma forte pesquisa em torno manifestações populares, das quais alguns integrantes já participavam e passaram a levar para o coletivo. Visando aprofundar ainda mais seus aprendizados, a banda elegeu o Funk, o Maracatu de Baque Virado, o Jongo, o Candomblé e o Bumba Meu Boi do Maranhão e mergulhou em imersões com as pessoas que vivem cada uma dessas manifestações em seu cotidiano. Assim, munido de muito significado, AJO (que quer dizer união) conquistou a indicação ao Grammy Latino na categoria Melhor Álbum de Música de Raízes em Língua Portuguesa ao lado de nomes como Hermeto Pascoal, Alessandra Leão e Elba Ramalho. Além de alguns nomes da cultura popular, o disco ainda conta com participações de Lenine e Carlos Malta. Buscando exaltar a força e a importância que cada uma destas culturas têm, a Foli Griô molda uma sonoridade potente afirmando sua identidade nesta sobreposição entre Brasil e África e faz do seu show um grande baile-ritual. Com todo o respeito e muito suingue, a banda faz do seu AJO uma grande celebração dos encantos destes muitos Brasis que dão certo."
     },
     {
@@ -77,7 +77,7 @@
       "artists": ["Jorge Ben Jor"],
       "year": "1974",
       "label": "Philips Records",
-      "image": "http://localhost:8080/tabua.jpg",
+      "folder": "http://localhost:8080/tabua.jpg",
       "review": "A Tábua de Esmeralda (together with Jorge Ben's 1976 album África Brasil) could be said to represent the creative culmination of his astonishing '70s. The music that Ben recorded during this period had tremendous influence on Brazilian musicians at that time and to a great extent helped to ignite the creative explosion that took place in the Brazilian samba rock and samba soul scenes during the '70s. The sound on this particular album is very simple, with the songs being driven by Ben's characteristic acoustic guitar playing together with a bass guitar and percussion. Floating in the background on several tracks are also some nice string arrangements and a double bass. The melodies are magnificently crafted, managing to be catchy and free-flowing without ever feeling banal or predictable. One of many great songs on this album is the upbeat opening track, Os Alquimistas Estão Chegando, with its funny lyrics about alchemists. Other especially fine moments are the space-themed Errare Humanum Est, Zumbi, with its Africa-inspired lyrics, Cinco Minutos, and Magnolia. A Tábua de Esmeralda belongs in the record collection of any fan of Ben's music and is also a great starting point for someone who wants an introduction to his work."
     }
   ]
