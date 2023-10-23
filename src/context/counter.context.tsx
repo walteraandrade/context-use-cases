@@ -8,40 +8,48 @@ interface CartItem {
 interface CounterContextProps {
   cartItems: CartItem[]
   addOne: (cartItem: CartItem) => void
-  substractOne: (cartTitle: string) => void
+  subtractOne: (cartTitle: string) => void
 }
+
+type CartAction =
+  | { type: "ADD_ONE"; payload: CartItem }
+  | { type: "SUBTRACT_ONE"; payload: string }
+
+function cartReducer(state: CartItem[], action: CartAction) {
+  const { type, payload } = action
+  switch (type) {
+    case "ADD_ONE": {
+      const { title } = payload
+      const itemIndex = state.findIndex((item) => item.title === title)
+      if (itemIndex !== -1) {
+        const updatedState = [...state]
+        updatedState[itemIndex].qty += 1
+        return updatedState
+      }
+      return [...state, { ...action.payload, qty: 1 }]
+    }
+    case "SUBTRACT_ONE":
+      return state.filter((item) => item.title !== action.payload)
+
+    default:
+      return state
+  }
+}
+
 const CounterContext = React.createContext<CounterContextProps | null>(null)
 
 export function CounterContextProvider({ children }: React.PropsWithChildren) {
-  const [cartItems, setCartItems] = React.useState<CartItem[]>([])
+  const [cartItems, dispatch] = React.useReducer(cartReducer, [])
 
   const addOne = (cartItem: CartItem) => {
-    const itemIndex = cartItems.findIndex(
-      (item) => item.title === cartItem.title
-    )
-
-    if (itemIndex !== -1) {
-      // Product already exists in the cart, update the quantity
-      setCartItems((prevItems) => {
-        const updatedItems = [...prevItems]
-        updatedItems[itemIndex].qty += 1
-        return updatedItems
-      })
-    } else {
-      // Product is not in the cart, add it as a new item
-      setCartItems((prevItems) => [...prevItems, { ...cartItem, quantity: 1 }])
-    }
+    dispatch({ type: "ADD_ONE", payload: cartItem })
   }
 
-  const substractOne = (cartTitle: string) => {
-    const oldCartItems = cartItems
-    const newCartItems = oldCartItems?.filter(
-      (cartItem) => cartItem.title !== cartTitle
-    )
-    setCartItems(newCartItems)
+  const subtractOne = (cartTitle: string) => {
+    dispatch({ type: "SUBTRACT_ONE", payload: cartTitle })
   }
   return (
-    <CounterContext.Provider value={{ cartItems, addOne, substractOne }}>
+    <CounterContext.Provider value={{ cartItems, addOne, subtractOne }}>
       {children}
     </CounterContext.Provider>
   )
